@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Pokémon</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--Nosso CSS -->
+    <link rel="stylesheet" href="assets/css/stylePoke.css">
+</head>
+
+<body>
+
+    <section class="details">
+        <h1>Bulbassaur</h1>
+
+        <div class="info">
+            <span class="number">#001</span>
+
+            <div class="infoTypes">
+                <ol class="types">
+                    <li class="type">GRASS</li>
+                    <li class="type">POISON</li>
+                </ol>
+
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Bulbasaur">
+            </div>
+        </div>            
+    </section>
+
+    <section>
+        <div class="caracts">
+            <h3>About</h3>
+            <div class="caraList">
+                <ol class="caraChama">
+                    <li>Species</li>
+                    <li>Height</li>
+                    <li>Weight</li>
+                    <li>Abilities</li>
+                </ol>
+
+                <ol class="caraResp">
+                    <li>Seed</li>
+                    <li>2'3,6" </li>
+                    <li>6.9 kg</li>
+                    <li>Overgrow, Chlorophyl</li>
+                </ol>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="status">
+            <h3>Status</h3>
+            <div class="statusList">
+                <ol class="statChama">
+                    <li>HP</li>
+                    <li>Attack</li>
+                    <li>Defensa</li>
+                    <li>Sp. Atk</li>
+                    <li>Sp. Def</li>
+                    <li>Speed</li>
+                    <li>Total</li>
+
+                </ol>
+
+                <ol class="statResp">
+                    <li>40</li>
+                    <li>40</li>
+                    <li>40</li>
+                    <li>40</li>
+                    <li>40</li>
+                    <li>40</li>
+                    <li>40</li>
+                </ol>
+
+                <ol class="statBarra">
+                    <li id="HP"></li>
+                    <li id="Attack"></li>
+                    <li id="Defensa"></li>
+                    <li id="Sp. Atk"></li>
+                    <li id="Sp. Def"></li>
+                    <li id="Speed"></li>
+                    <li id="Total"></li>
+                </ol>
+            </div>
+        </div>
+
+    </section>
+    
+    
+    
+    <script src="pokemon-details.js"></script>
+</body>
+
+</html> 
